@@ -1,0 +1,20 @@
+{
+    "textures": {
+        "particle": "block/snow",
+        "texture": "block/snow",
+        "snow_height10": "block/snow_height10"
+    },
+    "elements": [
+        {   "from": [ 0, 0, 0 ],
+            "to": [ 16, 10, 16 ],
+            "faces": {
+                "down":  { "uv": [ 0, 0, 16, 16 ], "texture": "#texture", "cullface": "down" },
+                "up":    { "uv": [ 0, 0, 16, 16 ], "texture": "#texture" },
+                "north": { "uv": [ 0, 6, 16, 16 ], "texture": "#snow_height10", "cullface": "north" },
+                "south": { "uv": [ 0, 6, 16, 16 ], "texture": "#snow_height10", "cullface": "south" },
+                "west":  { "uv": [ 0, 6, 16, 16 ], "texture": "#snow_height10", "cullface": "west" },
+                "east":  { "uv": [ 0, 6, 16, 16 ], "texture": "#snow_height10", "cullface": "east" }
+            }
+        }
+    ]
+}

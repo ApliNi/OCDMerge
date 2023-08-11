@@ -1,0 +1,17 @@
+{
+    "parent": "block/cube",
+    "textures": {
+        "particle": "#end",
+        "down": "#end",
+        "up": "#end"
+    },
+    "elements": [
+        {   "from": [ 0, 0, 0 ],
+            "to": [ 16, 16, 16 ],
+            "faces": {
+                "down":  { "texture": "#down", "cullface": "down" },
+                "up":    { "texture": "#up", "cullface": "up" }
+            }
+        }
+    ]
+}

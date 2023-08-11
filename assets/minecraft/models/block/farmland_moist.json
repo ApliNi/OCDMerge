@@ -1,0 +1,41 @@
+{   "parent": "block/block",
+    "textures": {
+        "particle": "block/dirt",
+        "farmland_moist": "block/farmland_moist",
+        "dirt": "block/dirt",
+        "farmland_side_moist": "block/farmland_side",
+        "farmland_side_moist_ns": "block/farmland_side"
+    },
+    "elements": [
+        {
+            "from": [0,0,0],
+            "to": [16,15,16],
+            "faces": {
+                "up": {
+                    "texture": "#farmland_moist"
+                },
+                "down": {
+                    "uv": [0,16,16,0],
+                    "texture": "#dirt",
+                    "cullface": "down"
+                },
+                "west": {
+                    "texture": "#farmland_side_moist",
+                    "cullface": "west"
+                },
+                "east": {
+                    "texture": "#farmland_side_moist",
+                    "cullface": "east"
+                },
+                "north": {
+                    "texture": "#farmland_side_moist_ns",
+                    "cullface": "north"
+                },
+                "south": {
+                    "texture": "#farmland_side_moist_ns",
+                    "cullface": "south"
+                }
+            }
+        }
+    ]
+}
